@@ -1,0 +1,56 @@
+# Ignorar archivos y carpetas generados por Visual Studio
+.vs/
+/bin/
+/obj/
+
+# Ignorar archivos de respaldo y caché
+*.bak
+*.cache
+
+# Ignorar archivos y carpetas de dependencias NuGet
+/packages/
+*.nupkg
+!.nuget/
+*.dll
+*.exe
+
+# Ignorar archivos de configuración de usuario
+*.user
+*.suo
+*.sln.docstates
+
+# Ignorar archivos y carpetas generados por herramientas de compilación
+_ReSharper*/
+*.resharper
+*.resharper.user
+
+# Ignorar archivos y carpetas de publicación
+_PublishedWebsites/
+*.pubxml
+*.publishproj
+
+# Ignorar archivos de registro y errores
+*.log
+*.logs
+*.errors
+
+# Ignorar archivos y carpetas de pruebas
+*.TestResults/
+[Test|Tests|UnitTests]/
+*.vsmdi
+*.testsettings
+
+# Ignorar archivos y carpetas de análisis de código
+*.code-analysis-Log.xml
+*.code-analysis.results.xml
+*.code-analysis.runsettings
+
+# Ignorar archivos y carpetas de cobertura de código
+*.coverage
+*.coveragexml
+*.OpenCover
+*.opencover.*
+
+# Ignorar archivos y carpetas de documentación
+docfx/
+docs/
